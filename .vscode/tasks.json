@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "dart",
+			"command": "dart",
+			"args": [
+				"run",
+				"build_runner",
+				"build"
+			],
+			"group": "build",
+			"problemMatcher": [],
+			"label": "Build Offline DB",
+			"detail": "offline_database",
+			"cwd": "libs/offline_database"
+		}
+	]
+}
